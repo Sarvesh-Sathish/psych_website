@@ -47,7 +47,7 @@ export class Home extends Component {
               </Heading>
             </VStack>
             <HStack spacing={10}>
-              <Box bg='blue.200' height='60vh' width='90vh' borderRadius='lg'></Box>
+              <image></image>
             </HStack>
           </VStack>
         </Box>

@@ -1,17 +1,20 @@
 import './App.css';
 import { Footer } from './components/Footer';
 import {Navbar} from './components/Navbar';
-import { Connect } from './pages/Connect';
-import { Features } from './pages/Features';
 import {Home} from './pages/Home';
+
+import { OurPurpose } from './pages/OurPurpose';
+import {WhatMakesUsDifferent} from './pages/WhatMakesUsDifferent';
+import {HowItWorks} from './pages/HowItWorks';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Home />
-      <Features />
-      <Connect />
+      <OurPurpose />
+      <WhatMakesUsDifferent />
+      <HowItWorks />
       <Footer />
     </div>
   );
