@@ -17,10 +17,8 @@ export class OurPurpose extends Component {
                     color='black'
                     justifyContent='center'>
                         <HStack spacing={5}>
-                            <Box bg='blue.200' height='20vh' width='45vh' borderRadius='lg'></Box>
-                        </HStack>
+                            <Box bg='blue.200' height='40vh' width='160vh' borderRadius='lg'></Box>
 
-                        <HStack spacing = {25}>
                             <VStack>
                                 <Heading
                                     fontSize='5xl'

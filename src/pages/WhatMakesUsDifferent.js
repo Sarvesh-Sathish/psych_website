@@ -16,7 +16,7 @@ export class WhatMakesUsDifferent extends Component {
                     padding={10}
                     color='black'
                     justifyContent='center'>
-                        <HStack spacing = {5}>
+                        <HStack>
                             <VStack>
                                 <Heading
                                     fontSize='5xl'
@@ -30,11 +30,13 @@ export class WhatMakesUsDifferent extends Component {
                                 Previous applications related to mental health have always been geared to the client. With this application, we focus on assisting the psychologist instead, so that they can more easily diagnose a patient.
                                 </text>
                             </VStack>
+
+                            <Box bg='blue.200' height='40vh' width='100vh' borderRadius='lg'></Box>
+
                         </HStack>
 
-                        <HStack spacing={15}>
-                            <Box bg='blue.200' height='20vh' width='45vh' borderRadius='lg'></Box>
-                        </HStack>
+
+
                 </Box>
             </Center>
         )
