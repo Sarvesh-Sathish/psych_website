@@ -1,9 +1,11 @@
 import React, {Component} from "react";
 import { Button, Box, Flex, HStack } from "@chakra-ui/react";
 import {NavLink} from "react-router-dom";
-import {Home} from "../pages/Home";
+import {Home} from "../pages/Home_And_About/Home";
 import {Features} from "../pages/Features";
 import {Connect} from "../pages/Connect";
+import { Demographics } from "../pages/Demographics/Demographics";
+
 import "./TabCard.css";
 
 
@@ -29,6 +31,11 @@ export class TabCard extends Component {
                         <li className="nav__item">
                             <NavLink to="/connect" className="nav__link">
                                 Connect
+                            </NavLink>
+                        </li>
+                        <li className="nav_item">
+                            <NavLink to="/demographics" className="nav_link">
+                                Demographics
                             </NavLink>
                         </li>
                     </ul>
